@@ -1,0 +1,5 @@
+[GitHub](https://github.com/obenadak/TrainingGit)
+[FontAwesome](https://cdnjs.com/libraries/font-awesome)
+[Codepen](https://codepen.io/pen/)
+[JsFiddle](https://jsfiddle.net/)
+[Emmet](https://docs.emmet.io/cheat-sheet/)
