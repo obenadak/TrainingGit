@@ -341,66 +341,75 @@ div9p {
   transform: rotate(360deg);
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
-#hader_id{
-  background-image: url('../image/island_coast_sea_215380_1920x1080.jpg');
+#hader_id {
+  background-image: url("../image/island_coast_sea_215380_1920x1080.jpg");
   height: 90vh;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   /* object-fit: cover; */
-  
-
 }
 
-.my_gradient{
-  background: linear-gradient(to right, blue,green );
-width: 90%;
-height: 200px;
+.my_gradient {
+  background: linear-gradient(to right, blue, green);
+  width: 90%;
+  height: 200px;
 }
 
 /*form*/
-.form_data > label{
-display: block;
-margin-bottom: 10px;
-text-transform: uppercase;
-opacity: 0.8;
+.form_data > label {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  opacity: 0.8;
 }
 
-.form_data > input{
+.form_data > input {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4%;
-  }
+}
 
-  input[type="text"],input[type="email"],input[type="password"]{
-    background-color: rgb(206, 208, 200)
-  }
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: rgb(206, 208, 200);
+}
 
-  input[type="reset"],button[type="submit"]{
-    background: linear-gradient(to right, blue, green);
-    padding: 0.4rem;
-    color: white;
-    transition: all 4s ease-out;
-  }
+input[type="reset"],
+button[type="submit"] {
+  background: linear-gradient(to right, blue, green);
+  padding: 0.4rem;
+  color: white;
+  transition: all 4s ease-out;
+}
 
-  input[type="reset"]:hover,button[type="submit"]:hover{
-    background: linear-gradient(to left, blue, green);
-    padding: 0.4rem;
-    color: white;
-    text-transform: uppercase;
-  }
+input[type="reset"]:hover,
+button[type="submit"]:hover {
+  background: linear-gradient(to left, blue, green);
+  padding: 0.4rem;
+  color: white;
+  text-transform: uppercase;
+}
 
-  #form_submit{
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4%;
-  }
+#form_submit {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4%;
+}
+
+.line-clamp5 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden !important;
+  -webkit-line-clamp: 5;
+}
