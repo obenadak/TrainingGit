@@ -183,3 +183,15 @@ table td:hover {
   background-color: rgb(255, 255, 255);
   color: #ff0202f7;
 }
+
+/*clearfix*/
+.my_clearfix{
+  content:"";
+  display: table;
+  clear: both;
+
+}
+
+#my_clearpath{
+    clip-path: polygon(55% 0%, 100% 55%, 55% 100%, 0 50%);
+}
