@@ -1,0 +1,21 @@
+/* External CSS */
+h2 {
+  color: orange;
+  background-color: black;
+}
+
+#parag_id {
+  font-size: larger !important;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+
+  text-align: justify;
+  text-decoration: underline;
+  text-transform: capitalize !important;
+  text-shadow: 0.5px -0.5px 1px red;
+
+  letter-spacing: 1.5px;
+  word-spacing: 3px !important;
+  line-height: 1.5;
+}
