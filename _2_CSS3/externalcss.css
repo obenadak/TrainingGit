@@ -88,5 +88,5 @@ s: saturation (Doygunluk: %0-%100)
 l: lightness (Açıklık: %0-%100)
 */
   background-color: hsl(0, 100%, 50%);
-  background-color: hsla(0, 100%, 50%, .);
+  background-color: hsla(0, 100%, 50%, .6);
 }
