@@ -5,12 +5,20 @@
   /*width:400 width+border+padding*/
 }
 
+/*root*/
+:root {
+  --main_color: white;
+  --main_bgcolor: #000;
+}
+
 html {
   font-size: 20px;
 }
 
 body {
   padding: 0 10%;
+  color: var(--main_color);
+  background-color: var(--main_bgcolor);
 }
 
 /* External CSS */
@@ -185,13 +193,55 @@ table td:hover {
 }
 
 /*clearfix*/
-.my_clearfix{
-  content:"";
+.my_clearfix {
+  content: "";
   display: table;
   clear: both;
-
 }
 
-#my_clearpath{
-    clip-path: polygon(55% 0%, 100% 55%, 55% 100%, 0 50%);
+#my_clearpath {
+  clip-path: polygon(55% 0%, 100% 55%, 55% 100%, 0 50%);
 }
+
+/* selector */
+/* p{
+  color: blue;
+  background-color: rgb(255, 255, 255);
+} */
+
+/* div p{
+  color: blue;
+  background-color: yellow;
+}
+
+p::before{
+  content: "Frontend";
+}
+
+p::after{
+  content: "Node JS";
+}
+
+p:hover{
+  color: blue;
+  background-color: green;
+}
+
+p:nth-child(even){
+  color: green;
+  background-color: blue;
+} */
+
+/* div-p{
+  color: blue;
+  background-color: green;
+} */
+
+div9p {
+  color: blue;
+  background-color: green;
+}
+
+/* input[type="text"]{
+  background-color: white;
+} */
