@@ -340,3 +340,25 @@ div9p {
   color: #f00;
   transform: rotate(360deg);
 }
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+#hader_id{
+  background-image: url('../image/island_coast_sea_215380_1920x1080.jpg');
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  /* object-fit: cover; */
+  
+
+}
+
+.my_gradient{
+  background: linear-gradient(to right, blue,green );
+width: 90%;
+height: 200px;
+}
