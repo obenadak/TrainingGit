@@ -245,3 +245,42 @@ div9p {
 /* input[type="text"]{
   background-color: white;
 } */
+
+/*flex box*/
+.flex_container {
+  /*flex özelliği verdik*/
+  display: flex;
+
+  /*satır olması için*/
+  flex-direction: row;
+
+  /*container sığmazsa bir sonraki satıra geç*/
+  flex-wrap: wrap;
+
+  /*yatay düzlem x*/
+  justify-content: space-around;
+
+  /*dikey düzlem y*/
+  align-items: center;
+
+  /*satırlar arası eşit boşluklar bıraksın ve dikey olarak sıralasın*/
+  align-content: space-around;
+}
+
+.flex_item {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f00;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  text-shadow: 0.5px -0.6px 5px white;
+  border-radius: 50%;
+  box-shadow: 10px 1px 10px 1px white;
+}
