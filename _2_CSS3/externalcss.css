@@ -4,6 +4,15 @@
   box-sizing: border-box;
   /*width:400 width+border+padding*/
 }
+
+html {
+  font-size: 20px;
+}
+
+body {
+  padding: 0 10%;
+}
+
 /* External CSS */
 h2 {
   color: orange;
@@ -120,4 +129,57 @@ visibilty: hidden */
 .a_link:hover {
   color: #333333;
   background-color: #ff0000;
+}
+/*list*/
+ul {
+  list-style-type: square;
+  list-style-type: none;
+}
+
+.ul_class {
+  list-style-type: square;
+  list-style-type: none;
+}
+
+#ul_id {
+  list-style-type: square;
+  list-style-type: none;
+}
+
+#ul_id li {
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  padding: 1rem;
+  background-color: beige;
+  text-transform: uppercase;
+}
+
+#ul_id li:hover {
+  color: beige;
+  background-color: black;
+}
+
+/*table*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid red;
+}
+table th {
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 0.5rem;
+}
+table td {
+  background-color: #ff0202f7;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+table td:hover {
+  background-color: rgb(255, 255, 255);
+  color: #ff0202f7;
 }
